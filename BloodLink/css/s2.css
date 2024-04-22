@@ -1,0 +1,68 @@
+.background-image {
+    background-image: url('https://penntoday.upenn.edu/sites/default/files/2021-10/red-blood-cells-main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjusted to viewport height for better responsiveness */
+    margin: 0;
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px; /* Increased width for better visual appeal */
+    text-align: center; /* Center align the content */
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: calc(100% - 22px); /* Adjusted to accommodate border width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-box input[type="submit"] {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #dc3545; /* Changed to red color */
+    color: #fff;
+    cursor: pointer;
+    text-align: center; /* Center align the text */
+    line-height: 30px; /* Set line-height to match the height of the button */
+}
+
+
+.login-box input[type="submit"]:hover {
+    background-color: #c82333; /* Darker shade of red on hover */
+}
+
+.login-box p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.login-box p a {
+    color: #dc3545; /* Changed to red color */
+    text-decoration: none;
+}
+
+.login-box p a:hover {
+    text-decoration: underline;
+}
+
+#header h2 {
+    margin: 0;
+    color: #dc3545; /* Changed to red color */
+}

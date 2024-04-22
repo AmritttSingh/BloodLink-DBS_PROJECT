@@ -1,0 +1,315 @@
+/*#full{
+	width :100%;
+	height: auto;
+}
+
+#inner_full{
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+
+#header{
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	color: white;
+}
+
+#body{
+	width: 100%;
+	height:400px;
+}
+#footer{
+	width: 100%;
+	height: 70px;
+	background-color: red;
+	color: white;
+}
+
+ul li{
+	width:20%;
+	height:50px;
+	line-height:50px;
+	margin-left:45px;
+	background:red;
+	color:white;
+	float:left;
+	border-radius:10px ;
+	list-style: none;
+	text-align:center;
+}
+
+ul li a{
+	text-decoration:none;
+}
+
+
+#form{
+	width:80%;
+	height:250px;
+	background-color: red;
+	color:white;
+	border-radius:10px ;
+}
+
+
+#fo{
+	width:60%;
+	height:275px;
+	line-height:0px;
+	background-color: red;
+	color:white;
+	border-radius:10px;
+	margin:auto;
+	overflow: auto;
+}
+*/
+
+/* Body styles */
+/*
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+ 
+  #full {
+	width: 100%;
+	min-height: 100vh; 
+	background-color: #f8f9fa; 
+  }
+  
+  #inner_full {
+	width: 80%;
+	max-width: 1200px; 
+	margin: auto;
+	padding: 20px; 
+  }
+  
+  
+  #header {
+	height: 70px; 
+	background-color: #dc3545; 
+	color: white;
+	display: flex;
+	align-items: center; 
+	justify-content: center; 
+  }
+  
+  
+#footer {
+	height: 70px;
+	background-color: #343a40; 
+	color: white;
+	text-align: center;
+	padding-top: 20px; 
+	clear: both; 
+	position: relative;
+	margin-top: 20px; 
+	bottom: 0; 
+	width: 100%; 
+  }
+  
+  
+  ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  ul li {
+	width: calc(100% / 3); 
+	height: 50px;
+	line-height: 50px;
+	background: #007bff; 
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	margin: 10px; 
+	float: left;
+	transition: background-color 0.3s ease; 
+  }
+  
+  ul li:hover {
+	background-color: #0056b3; 
+  }
+  
+  ul li a {
+	text-decoration: none;
+	color: inherit; 
+	display: block;
+	height: 100%;
+  }
+  
+
+  #form {
+	width: 100%;
+	max-width: 600px; 
+	background-color: #fff;
+	color: #343a40; 
+	border-radius: 10px;
+	margin: auto;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #fo{
+	width:60%;
+	height:275px;
+	line-height:0px;
+	background-color: red;
+	color:white;
+	border-radius:10px;
+	margin:auto;
+	overflow: auto;
+}
+  
+  
+  @media (max-width: 768px) {
+	ul li {
+	  width: 100%; 
+	  margin: 5px 0; 
+	}
+  }
+  */
+
+
+/* Body styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	position: relative; /* Add relative positioning to the body */
+	min-height: 100vh; /* Ensure the body fills the viewport height */
+	overflow-x: hidden;
+}
+
+#full1{
+    width: 100%;
+    background-image: url('https://penntoday.upenn.edu/sites/default/files/2021-10/red-blood-cells-main.jpg'); /* Set the image as background */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    padding-bottom: 70px; /* Add space for the footer */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    color: white; /* Set text color to white */
+}
+
+/* Container styles */
+#full {
+	width: 100%;
+	background-color: #f8f9fa; /* Light background color */
+	padding-bottom: 70px; /* Add space for the footer */
+	box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+#inner_full {
+	width: 80%;
+	max-width: 1200px; /* Maximum width for content */
+	margin: auto;
+	padding: 20px; /* Add padding for better spacing */
+	text-align: center; /* Center the body contents */
+    overflow-y: auto; /* Add vertical scrollbar when content exceeds screen height */
+    padding-top: 70px; 
+	padding-bottom: 70px; 
+
+}
+
+/* Header styles */
+#header {
+	height: 70px; /* Increased height for better visibility */
+	background-color:#dc3545 ; /* Bootstrap red color */
+	color: white;
+	width: 100%;
+	position: fixed; /* Position the header */
+    top: 0; /* Position the header at the top */
+    left: 0; /* Set left to 0 to align to the left side */
+    right: 0; /* Set right to 0 to align to the right side */
+    display: flex;
+    align-items: center; /* Vertically center header content */
+    justify-content: center; /* Horizontally center header content */
+}
+
+/* Footer styles */
+#footer {
+	
+	bottom: 0; /* Position the footer at the bottom */
+	position: fixed;
+	width:100%;
+	height: 70px;
+	bottom: 0;
+    left: 0;
+	background-color: #343a40; /* Bootstrap dark color */
+	color: white;
+	display: flex;
+	
+	align-items: center;
+	justify-content: center;/* Add padding to vertically center text */
+	font-size: 5px !important;
+}
+
+/* Navigation styles */
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex; /* Use flexbox for navigation */
+	justify-content: space-around; /* Distribute items evenly along the main axis */
+}
+
+ul li {
+	flex: 1; /* Grow to fill available space */
+	height: 50px;
+	line-height: 50px;
+	background: #007bff; /* Bootstrap primary color */
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	margin: 10px; /* Add margin for better spacing */
+	transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+ul li:hover {
+	background-color: #0056b3; /* Darker shade of primary color on hover */
+}
+
+ul li a {
+	text-decoration: none;
+	color: inherit; /* Inherit text color from parent */
+	display: block;
+	height: 100%;
+}
+
+/* Form styles */
+#form {
+	width: 100%;
+	max-width: 600px; /* Limit form width for better readability */
+	background-color: #fff; /* White background */
+	color: #343a40; /* Dark text color */
+	border-radius: 10px;
+	margin: auto;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+
+#fo{
+	width:60%;
+	height:275px;
+	line-height:0px;
+	background-color: red;
+	color:white;
+	border-radius:10px;
+	margin:auto;
+	overflow: auto;
+}
+  
+  
+  
+@media (max-width: 768px) {
+	ul li {
+	  width: 100%; 
+	  margin: 5px 0; 
+	}
+  }

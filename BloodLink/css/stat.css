@@ -1,0 +1,35 @@
+html {
+  background-image: url('img/bg.webp'); /* Specify the URL of your image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  color: white; /* Set text color to white for better visibility */
+}
+
+.card {
+  background-color: whitesmoke;
+  border-color: red;
+}
+
+.card-subtitle {
+  color: white; /* Change text color to white for better visibility */
+}
+
+
+body {
+  background-image: url('img/bg.webp'); /* Specify the URL of your image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  color: white; /* Set text color to white for better visibility */
+}
+
+  
+  .card {
+    background-color: whitesmoke;
+    border-color: red;
+  }
+  
+  .card-subtitle {
+    color: white; /* Change text color to white for better visibility */
+  }

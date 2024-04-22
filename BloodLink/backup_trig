@@ -1,0 +1,11 @@
+DELIMITER //
+
+CREATE TRIGGER backup_donor_registration
+AFTER INSERT ON donor_registration
+FOR EACH ROW
+BEGIN
+    INSERT INTO donor_registration_backup (id, name, address, city, age, bgroup, email, mno)
+    VALUES (NEW.id, NEW.name, NEW.address, NEW.city, NEW.age, NEW.bgroup, NEW.email, NEW.mno);
+END //
+
+DELIMITER ;
